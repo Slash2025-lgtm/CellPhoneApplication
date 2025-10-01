@@ -39,7 +39,7 @@ public class CellPhone {
         System.out.print("Enter Owners Name: ");
         owner = keyboard.nextLine();
 
-        System.out.printf("Serial Number: %s\nModel: %s\nCarrier: %s\nPhone Number: %s\nOwner: %s\n\n", serialNumber, model, carrier, phoneNumber, owner);
+        System.out.printf("\nSerial Number: %s\nModel: %s\nCarrier: %s\nPhone Number: %s\nOwner: %s\n\n", serialNumber, model, carrier, phoneNumber, owner);
     }
 
     public void dial() {
