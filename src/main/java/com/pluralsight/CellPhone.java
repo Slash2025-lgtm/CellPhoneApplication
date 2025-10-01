@@ -22,7 +22,7 @@ public class CellPhone {
         this.receiverPhoneNumber = receiverPhoneNumber;
     }
 
-    public void display() {
+    public void info() {
         System.out.println("CellPhoneApp [Open]");
         System.out.print("Enter Serial Number: ");
         serialNumber = keyboard.nextLine();
@@ -42,11 +42,21 @@ public class CellPhone {
         System.out.printf("\nSerial Number: %s\nModel: %s\nCarrier: %s\nPhone Number: %s\nOwner: %s\n\n", serialNumber, model, carrier, phoneNumber, owner);
     }
 
+    public String getOwner() {
+        return owner;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getReceiverPhoneNumber() {
+        return receiverPhoneNumber;
+    }
+
     public void dial() {
         System.out.println("Enter Receiver's Phone Number: ");
         receiverPhoneNumber = keyboard.nextLine();
         System.out.printf("%s phone is calling %s\n", owner, receiverPhoneNumber);
-
     }
-
 }

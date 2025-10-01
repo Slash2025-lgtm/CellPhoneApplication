@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe554f82-4da1-4ac7-9016-16a9482a4fad" name="Changes" comment="Dialing Update">
+    <list default="true" id="fe554f82-4da1-4ac7-9016-16a9482a4fad" name="Changes" comment="Small Change Update">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1759328152151</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Small Change Update">
+      <option name="closed" value="true" />
+      <created>1759328553260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759328553260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Dialing Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dialing Update" />
+    <MESSAGE value="Small Change Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small Change Update" />
   </component>
 </project>
