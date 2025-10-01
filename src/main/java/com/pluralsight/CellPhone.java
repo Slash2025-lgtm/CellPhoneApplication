@@ -12,6 +12,7 @@ public class CellPhone {
     private String owner;
     private int selected;
     private String receiverPhoneNumber;
+
     public CellPhone () {
         this.serialNumber = serialNumber;
         this.model = model;
@@ -20,6 +21,14 @@ public class CellPhone {
         this.owner = owner;
         this.selected = selected;
         this.receiverPhoneNumber = receiverPhoneNumber;
+    }
+
+    public CellPhone (String serialNumber, String model, String carrier, String phoneNumber, String owner) {
+        this.serialNumber = serialNumber;
+        this.model = model;
+        this.carrier = carrier;
+        this.phoneNumber = phoneNumber;
+        this.owner = owner;
     }
 
     public void info() {
@@ -42,6 +51,10 @@ public class CellPhone {
         System.out.printf("\nSerial Number: %s\nModel: %s\nCarrier: %s\nPhone Number: %s\nOwner: %s\n\n", serialNumber, model, carrier, phoneNumber, owner);
     }
 
+    public void info(String serialNumber, String model, String carrier, String phoneNumber, String owner) {
+        System.out.printf("Serial Number 2: %s\nModel 2: %s\nCarrier 2: %s\nPhone Number 2: %s\nOwner 2: %s", serialNumber, model, carrier, phoneNumber, owner);
+    }
+
     public String getOwner() {
         return owner;
     }
@@ -58,5 +71,11 @@ public class CellPhone {
         System.out.print("Enter Receiver's Phone Number: ");
         receiverPhoneNumber = keyboard.nextLine();
         System.out.printf("%s phone is calling %s\n", owner, receiverPhoneNumber);
+    }
+
+    public void dial(String phoneNumber){
+        System.out.print("Enter Receiver's Phone Number: ");
+        receiverPhoneNumber = keyboard.nextLine();
+        System.out.printf("%s phone is calling from %s\n", owner, phoneNumber);
     }
 }
