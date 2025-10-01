@@ -13,6 +13,6 @@ public class CellPhoneApplication {
     }
 
     public static void display(String phoneNumber, String receiverPhoneNumber) {
-        System.out.printf("Phone 1: %s\n Phone 2: %s\n", phoneNumber, receiverPhoneNumber);
+        System.out.printf("Phone 1: %s\nPhone 2: %s\n", phoneNumber, receiverPhoneNumber);
     }
 }

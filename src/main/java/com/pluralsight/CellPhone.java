@@ -55,7 +55,7 @@ public class CellPhone {
     }
 
     public void dial() {
-        System.out.println("Enter Receiver's Phone Number: ");
+        System.out.print("Enter Receiver's Phone Number: ");
         receiverPhoneNumber = keyboard.nextLine();
         System.out.printf("%s phone is calling %s\n", owner, receiverPhoneNumber);
     }
