@@ -15,21 +15,21 @@ public class CellPhoneApplication {
             cellPhone.dial();
             display(cellPhone.getPhoneNumber(), cellPhone.getReceiverPhoneNumber());
         } else {
-            System.out.println("\n\nCellPhoneApp [Open]");
+            System.out.println("\nCellPhoneApp [Open]");
             System.out.print("Enter Serial Number: ");
             String serialNumber = keyboard.next();
 
             System.out.print("Enter the Model: ");
-            String model = keyboard.nextLine();
+            String model = keyboard.next();
 
             System.out.print("Enter the Carrier: ");
-            String carrier = keyboard.nextLine();
+            String carrier = keyboard.next();
 
             System.out.print("Enter Phone Number: ");
-            String phoneNumber = keyboard.nextLine();
+            String phoneNumber = keyboard.next();
 
             System.out.print("Enter Owners Name: ");
-            String owner = keyboard.nextLine();
+            String owner = keyboard.next();
 
             CellPhone cellPhone = new CellPhone(serialNumber, model, carrier, phoneNumber, owner);
             cellPhone.info(serialNumber, model, carrier, phoneNumber, owner);

@@ -32,7 +32,7 @@ public class CellPhone {
     }
 
     public void info() {
-        System.out.println("CellPhoneApp [Open]");
+        System.out.println("\nCellPhoneApp [Open]");
         System.out.print("Enter Serial Number: ");
         serialNumber = keyboard.nextLine();
 
@@ -52,7 +52,7 @@ public class CellPhone {
     }
 
     public void info(String serialNumber, String model, String carrier, String phoneNumber, String owner) {
-        System.out.printf("Serial Number 2: %s\nModel 2: %s\nCarrier 2: %s\nPhone Number 2: %s\nOwner 2: %s", serialNumber, model, carrier, phoneNumber, owner);
+        System.out.printf("\nSerial Number 2: %s\nModel 2: %s\nCarrier 2: %s\nPhone Number 2: %s\nOwner 2: %s", serialNumber, model, carrier, phoneNumber, owner);
     }
 
     public String getOwner() {
@@ -74,8 +74,8 @@ public class CellPhone {
     }
 
     public void dial(String phoneNumber){
-        System.out.print("Enter Receiver's Phone Number: ");
+        System.out.print("\nEnter Receiver's Phone Number: ");
         receiverPhoneNumber = keyboard.nextLine();
-        System.out.printf("%s phone is calling from %s\n", owner, phoneNumber);
+        System.out.printf("%s phone is calling from %s\n(Called From Phone 2)", owner, phoneNumber);
     }
 }

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe554f82-4da1-4ac7-9016-16a9482a4fad" name="Changes" comment="Small Change Update">
+    <list default="true" id="fe554f82-4da1-4ac7-9016-16a9482a4fad" name="Changes" comment="1 or 2 Added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" afterDir="false" />
     </list>
@@ -85,13 +86,40 @@
       <option name="project" value="LOCAL" />
       <updated>1759328553260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Display Fix">
+      <option name="closed" value="true" />
+      <created>1759329389480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759329389480</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Visual Fix">
+      <option name="closed" value="true" />
+      <created>1759329484488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759329484488</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1 or 2 Added">
+      <option name="closed" value="true" />
+      <created>1759341633186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759341633187</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Dialing Update" />
     <MESSAGE value="Small Change Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small Change Update" />
+    <MESSAGE value="Display Fix" />
+    <MESSAGE value="Visual Fix" />
+    <MESSAGE value="1 or 2 Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 or 2 Added" />
   </component>
 </project>
